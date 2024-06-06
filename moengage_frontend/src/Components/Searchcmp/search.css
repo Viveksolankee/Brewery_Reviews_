@@ -1,0 +1,76 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.search-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center; 
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.brewery-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.brewery-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.brewery-list li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.brewery-list li a:hover {
+  text-decoration: underline;
+}
